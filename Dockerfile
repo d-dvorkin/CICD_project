@@ -1,5 +1,5 @@
 # Stage 1: Linting
-FROM python:3.9-slim-buster as linting
+FROM python:3.8-slim-buster as linting
 WORKDIR /app
 RUN pip install pylint
 COPY *.py ./
